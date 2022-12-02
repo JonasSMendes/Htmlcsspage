@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#0c0ce94d;
+
+}
+.conteiner{
+    width: 90%;
+    height: 94vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgb(0,0,0.212);
+}
+.conteiner img{
+    width: 31rem;
+}
+.form-img{
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #fde3a7d7;
+   padding: 1rem;
+}
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#FEFCF3;
+    padding: 1rem;
+}
+.form-name{
+    font-size: 25px;
+    padding: 10px;
+    display: flex;
+    margin-right: 17rem;
+    
+}
+.dados{
+    width: 100%;  
+    background-color: #EDEDED;
+    border: none;
+    margin-bottom: 15px;
+}
+.dados legend{
+    font-size: 20px;
+    border: 1px solid #EDEDED;
+    padding: 10px;
+    background-color: #EDEDED;
+    border: none;
+   
+}
+.form-conteiner-1{
+    padding: 10px;
+}
+select{
+    padding: 8px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+select:hover{
+    background-color:#bcbcbc;
+}
+input{
+    padding: 8px;
+    width: 100%; 
+    border: none;
+    background-color:white;
+    border-radius: 10px;
+}
+input:hover{
+    background-color:#bcbcbc ;
+}
+h6{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.gener-grup{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-items: center;
+    font-size: 13px;
+    margin-right: 5px;
+}
+.gener-grup:hover{
+    background-color:D8D9CF ;
+}
+button{
+    padding: 10px;
+    width: 100%;
+    background-color: #ccc;
+    border: none;
+
+}
+button:hover{
+   
+    background-color: #D8D9CF;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="designe.css">
+    <title>cadastro</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="form-img">
+            <img src="undraw_traveling_re_s0cf.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="" method="post">
+                <div class="form-name"> <h2>cadastre-se</h2></div>
+            <div class="dados">
+                <fieldset class="form-conteiner-1">
+                    <legend>Dados pessoais</legend>
+
+                    <label> Nome completo  <br>
+                        <input type="text" name="" placeholder="nome completo" required minlength="5" maxlength="25">
+                    </label> <br>
+                    <label> Idade <br>
+                        <input type="number" name="" placeholder="Idade" required maxlength="3">
+                    </label> <br>
+                    <label> Onde quer ir?<br>
+                        <select name="ordenacao" id="" aria-placeholder="cidades disponiveis">
+                            <option value="bastseller">cidades disponiveis</option>
+                            <option value="last" >Roma</option>
+                            <option value="last" >Rio de janeiro</option>
+                            <option value="last" >Singapura</option>
+                            <option value="last" >tokyo</option>
+                            <option value="last" >nova york</option>
+                        </select>
+                    </label> <br>
+                    <label> CPF <br>
+                        <input type="number" name="" placeholder="000-000-000-00" required maxlength="11" minlength="11">
+                    </label>
+
+                    <label> telefone <br>
+                        <input type="tel" name="" placeholder="(xx)x-xxx-xxx-xx" required minlength="11" maxlength="11">
+                    </label> <br>
+                    <label> RG <br>
+                        <input type="number" name="" placeholder="0.000.000" required maxlength="7">
+                    </label> <br>
+                    <label> email <br>
+                        <input type="email" name="" placeholder="seu email" required minlength="10">
+                    </label>
+                    <div class="genero-input">
+                        <div class="genero title">
+                            <h6>Gênero</h6>
+                        </div>
+                    <div class="gener-grup">
+                            <div class="gener-input"> 
+                                <input type="radio" id="female" name="gender">
+                                <label for="female"> Feminino</label> 
+                            </div>
+                            <div class="gener-input"> 
+                                <input type="radio" id="male" name="gender">
+                                <label for="male"> Masculino</label> 
+                            </div>
+                            <div class="gener-input"> 
+                                <input type="radio" id="others" name="gender">
+                                <label for="others"> Outros</label> 
+                            </div>
+                            <div class="gener-input"> 
+                                <input type="radio" id="none" name="gender">
+                                <label for="none"> Prefiro não dizer</label> 
+                            </div>
+                    </div>
+                </fieldset>
+            </div>
+
+                <div class="continue-botom">
+                    <button> <a href="#"> Continue</a></button>
+                </div>
+            </form>
+        </div>
+        
+        </div>
+    </div>
+</body>
+</html>
