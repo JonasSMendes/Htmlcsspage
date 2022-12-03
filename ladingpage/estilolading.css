@@ -1,20 +1,40 @@
 *{
     margin: 0;
     text-decoration: none;
-    background-color: black;
     
+    color: white;
     
 }
 body{
     width: 100%;
     height: 90vh;
+    background-color: black;
 }   
 .cabecalho, a{
     display: flex;
     justify-content: center;
-    padding: 20px;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: gray;
 }
+.logo-compra{
+    display: flex;
+    align-items: center;
+}
+.logo-compra img{
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
 
+}
+a:hover{
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
 .homepage{
     display: flex;
     justify-content:space-between;
@@ -35,5 +55,43 @@ body{
     text-transform: uppercase;
     text-align: center;
     color: white;
+    
+}
+.main-page{
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.image-main{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+   margin-left: 200px;
+}
+img{
+    width: 500px;
+    height: 400px;
+}
+.text-main{
+    width: 50%;
+    height: 50vh;
+    margin-top: 200px;
+    font-size: 30px;
+}
+button{
+    background-color: gray;
+    padding: 10px;
+    width: 300px;
+    height: 60px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: black;
+    font-size: 15px;
+}
+button:hover{
+    background-color:white ;
+    
 }
 
