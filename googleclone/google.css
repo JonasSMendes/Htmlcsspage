@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2a2829;
+}
+.cabecalho{
+    width: 100%;
+    height: 50px;
+}
+.home-page{
+    display: flex;
+    justify-items: center;
+    justify-content: right;
+    padding: 10px;
+}
+.img-perfil{
+    margin-top: 5px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.home-page button{
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    background-color: #2a2829;
+    border-radius: 50%;
+}
+.img-loguinho{
+    width: 50px;
+    height: 50px;
+}
+.img-loguinho:hover{
+    background-color: #171717;
+}
+.home-page a{
+    margin-top: 10px;
+    padding:5px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.home-page a:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
