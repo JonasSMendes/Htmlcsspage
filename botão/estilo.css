@@ -1,0 +1,18 @@
+body{
+    margin: 20px;
+}
+.botão{
+    margin-left: 600px;
+    width: 100px;
+    height: 30px;
+    font-size: 21px;
+    display:inline-block;
+    background-color: blue;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.botão:hover{
+    background-color: rgb(65, 65, 227);
+}
