@@ -1,15 +1,25 @@
 .conteiner{
-    background-color: rgb(52, 174, 174);
-    width: 300px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-
+    width: 500px;
+    height: 80px;
+    background-color: #39aae1;
+    border: 3px solid #39aae1;
+    background: linear-gradient(90deg,#63b8e2,#39aae1);
+    box-shadow: 0px 0px 10px #555;
+    position: fixed;
+    left: -150px;
+    top: 60px;
+    text-align: center;
+    transform: rotate(-45deg);
 }
 a{
-    padding: 10px;
-    font-size: 25px;
-    border-top:2px solid black ;
-    border-bottom: 2px solid black;
+    display: block;
+    box-sizing: border-box;
+    width: 500px;
+    height: 80px;
     text-decoration: none;
+    border: 1px solid #fff;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 0px 0px 10px #555;
+    padding: 25px;
 }
