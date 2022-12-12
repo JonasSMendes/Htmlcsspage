@@ -28,6 +28,7 @@ header{
     width: 80px;
     height: 80px;
     background-color: #b28756;
+    border-radius: 40px;
 }
 .menu{
     flex: 1;
@@ -71,15 +72,74 @@ header{
     background-image: url("../icones/bg.jpg");
     background-size: cover;
     background-position: bottom;
+    overflow:hidden ;
 }
 .banner .slider{
     width: 1000vw;
     height: 100%;
-    background-color: red;
     
 }
 .banner .slide{
     width: 100vw;
     height: 100%;
     display: inline-block;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+.slide-area{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+.banner h1 span{
+    color: #b28756;
+}
+.banner h2{
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.banner a{
+    display: block;
+    background-color: #b28756;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-weight: 600;
+    margin-top: 25px;
+    border-radius: 20px;
+
+}
+.banner .slider-point{
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    margin-top: -50px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.banner .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.banner .pointer:hover{
+    background-color: #b28756;
+}
+.banner .pointer.active{
+    background-color: #b28756;
 }
