@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    overflow-x:hidden ;
 }
 header{
     height: 100px;
@@ -119,6 +120,9 @@ header{
     border-radius: 20px;
 
 }
+.banner a:hover{
+    color: #ccc;
+}
 .banner .slider-point{
     width: 100vw;
     height: 20px;
@@ -142,4 +146,40 @@ header{
 }
 .banner .pointer.active{
     background-color: #b28756;
+}
+
+
+
+
+
+.defaul{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.defaul .section-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.defaul .section-disc{
+    text-align: center;
+    text-transform: uppercase;
+    font-size:  12px;
+    font-weight: 600;
+    color: rgb(186, 177, 177);
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.defaul .section-body{
+    margin: auto;
+    max-width: 1140px;
+    min-height: 100px;
+}
+.defaul .light{
+    background-color: #f7f7f7;
+}
+.defaul .light .section-title{
+    color: #000;
 }
