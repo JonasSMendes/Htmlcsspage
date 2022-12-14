@@ -279,3 +279,47 @@ css de areas especificas
     color: #ccc;
     margin-top: 10px;
 }
+
+
+
+
+
+
+.section-projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-projects-filters{
+    border: 1px solid #999;
+    background-color: #EEE;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0px 20px;
+   
+}
+.section-projects-filters li,
+.section-projects-filters ul{
+    list-style: none;
+}
+.section-projects-filters li{
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-left: 1px solid #ccc;
+    color: #555;
+    font-weight: 400;
+    border-bottom: 3px solid #eee;
+    cursor: pointer;
+}
+.section-projects-filters span li{
+    border-bottom: 3px solid #b28756;
+}
+.section-projects-filters li:hover{
+ border-bottom: 3px solid #b28756;
+}
+.section-projects-filters li:first-child{
+    border-left: 0;
+}
+
