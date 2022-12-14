@@ -323,3 +323,16 @@ css de areas especificas
     border-left: 0;
 }
 
+.section-projects--photos{
+    width: 100%;
+    max-width: 1140;
+    margin-top: 20px;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section-projects--photo{
+   width: 280px;
+}
+
