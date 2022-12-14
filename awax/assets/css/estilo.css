@@ -131,6 +131,7 @@ header{
     display: flex;
     justify-content:center ;
     align-items: center;
+    
 }
 .banner .pointer{
     width: 15px;
@@ -140,6 +141,7 @@ header{
     margin-left: 5px;
     margin-right: 5px;
     cursor: pointer;
+    
 }
 .banner .pointer:hover{
     background-color: #b28756;
@@ -183,3 +185,21 @@ header{
 .defaul .light .section-title{
     color: #000;
 }
+.defaul.Dark{
+    background-color: #000;
+}
+.defaul.Dark .section-title{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
