@@ -177,18 +177,20 @@ header{
 .defaul .section-body{
     margin: auto;
     max-width: 1140px;
-    min-height: 100px;
+    
 }
 .defaul .light{
     background-color: #f7f7f7;
 }
-.defaul .light .section-title{
+.defaul.light .section-title,
+.defaul.light .section-body{
     color: #000;
 }
 .defaul.Dark{
     background-color: #000;
 }
-.defaul.Dark .section-title{
+.defaul.Dark .section-title,
+.defaul.Dark .section-body{
     color: white;
 }
 
@@ -203,3 +205,22 @@ header{
 
 
 
+
+/*
+css de areas especificas 
+*/
+
+.section-aboutus{
+    display: flex;
+
+}
+.section-aboutus-left{
+    flex: 1;
+}
+.section-aboutus-righ{
+    width: 500px;
+    background-color: red;
+}
+.section-aboutus-righ img{
+    
+}
