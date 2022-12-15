@@ -413,9 +413,10 @@ css de areas especificas
     display: flex;
     height: 100%;
     align-items: center;
-    color: white;
+    color: black;
     justify-content: center;
     flex-direction: column;
+    padding: 30px;
 }
 
 .team-area .slider-point{
@@ -438,5 +439,38 @@ css de areas especificas
     background-color: #b28756;
 }
 .team-area .pointer.active{
+    background-color: #b28756;
+}
+.section-team-avatar{
+    width: 150px;
+    height: auto;
+}
+.section-team-name{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.section-team-role{
+    color: #999;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.section-team-social{
+    display: flex;
+    margin-top: 20px;
+
+}
+.section-team-social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 13px;
+    margin-right: 10px;
+}
+.section-team-social a:hover{
     background-color: #b28756;
 }
