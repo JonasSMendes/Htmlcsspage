@@ -207,7 +207,10 @@ header{
     border-radius: 20px;
     margin-left: 80px;
 }
-
+.button:hover{
+    color: #ccc;
+    background-color: #9f794c;
+}
 
 
 
@@ -327,12 +330,44 @@ css de areas especificas
     width: 100%;
     max-width: 1140;
     margin-top: 20px;
-    background-color: red;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 .section-projects--photo{
    width: 280px;
+  
+   
 }
+.section-projects--photoarea{
 
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+.section-projects--photoarea img{
+    width: inherit;
+}
+.section-projects--photoinfo{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.section-projects--photoinfo h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    
+}
+.section-projects--photoarea:hover .section-projects--photoinfo{
+    display: flex;
+    cursor: pointer;
+}
