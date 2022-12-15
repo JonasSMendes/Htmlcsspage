@@ -205,7 +205,7 @@ header{
     font-weight: 600;
     margin-top: 30px;
     border-radius: 20px;
-    margin-left: 80px;
+    
 }
 .button:hover{
     color: #ccc;
@@ -234,7 +234,6 @@ css de areas especificas
     flex: 1;
 }
 .section-aboutus-left p{
-    margin-left: 80px;
     font-size: 12px;
     line-height: 25px;
     font-weight: bold;
