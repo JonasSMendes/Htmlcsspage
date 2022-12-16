@@ -181,7 +181,7 @@ header{
     
 }
 .defaul .light{
-    background-color: #f7f7f7;
+    background-color:#ccc;
 }
 .defaul.light .section-title,
 .defaul.light .section-body{
@@ -531,4 +531,25 @@ css de areas especificas
 }
 .clients-area .pointer.active{
     background-color: #b28756;
+}
+
+
+
+.section-logomarcas{
+
+    height:200px ;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #eee;
+    border-top: 1px solid #ccc;
+    border-bottom:1px solid #ccc; 
+    margin-bottom: 30px;
+    
+}
+.section-logomarcas img{
+    margin-left: 60px;
+    
 }
