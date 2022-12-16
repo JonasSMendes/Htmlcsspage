@@ -547,9 +547,36 @@ css de areas especificas
     border-top: 1px solid #ccc;
     border-bottom:1px solid #ccc; 
     margin-bottom: 30px;
-    
 }
 .section-logomarcas img{
     margin-left: 60px;
     
 }
+
+
+.section-price{
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+   
+    height: 300px;
+    
+}
+.section-price .price-area{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #ccc;
+}
+.price-area{
+    width: 200px;
+   
+    
+}
+
