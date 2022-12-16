@@ -554,29 +554,71 @@ css de areas especificas
 }
 
 
+
+
+
+
+
+
 .section-price{
     overflow: hidden;
-    max-width: 880px;
+    max-width: 1140px;
     margin: auto;
     display: flex;
     justify-content: space-around;
-   
-    height: 300px;
+    height: 400px;
     
 }
 .section-price .price-area{
+    width: 245px ;
     display: flex;
     height: 100%;
     align-items: center;
     color: black;
-    justify-content: center;
     flex-direction: column;
-    padding: 50px;
-    background-color: #ccc;
+    padding: 20px;
+    background-color: #eee;
 }
 .price-area{
-    width: 200px;
-   
+    width: 200px;   
+}
+.price-area-name{
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.section-price p{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.price-area-infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: rgb(132, 131, 131);
+    font-weight: 600;
     
 }
-
+.price-area h1{
+    font-size: 30px;
+}
+.button-chose{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.button-chose:hover{
+    background-color: #b28756;
+}
+.button-chose.style{
+    background-color: #b28756;
+}
