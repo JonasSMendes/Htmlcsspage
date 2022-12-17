@@ -623,3 +623,24 @@ css de areas especificas
 .button-chose.style{
     background-color: #b28756;
 }
+
+
+
+.section-premium{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.section-premium-img{
+    margin-right: 170px;
+    width: 400px;
+}
+.section-premium-infos{
+
+}
+.section-premium-infos p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #999;
+}
