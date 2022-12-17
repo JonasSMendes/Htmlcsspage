@@ -624,23 +624,41 @@ css de areas especificas
     background-color: #b28756;
 }
 
-
-
+.premium-area{
+    width: 100%;
+    height: auto;
+    background-color: #EEE;
+    padding-bottom: 40px;
+}
 .section-premium{
     display: flex;
     justify-content: center;
-    justify-items: center;
+    justify-items: center; 
 }
-
+.section-premium h1{
+    display: flex;
+}
+.section-premium h1 img{
+    margin-right: 30px;
+}
 .section-premium-img{
-    margin-right: 170px;
-    width: 400px;
+    margin-right: 100px;
+    width: 300px;
 }
 .section-premium-infos{
-
+    flex: 1;
+    max-width:560px ;
+    
 }
 .section-premium-infos p{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: #999;
+    font-size: 13px;
+}
+.button-chose.premium{
+   display: inline-block;
+   margin-top: 30px;
+   margin-left: 400px;
 }
