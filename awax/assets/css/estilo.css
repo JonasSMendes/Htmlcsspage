@@ -629,11 +629,14 @@ css de areas especificas
     height: auto;
     background-color: #EEE;
     padding-bottom: 40px;
+    padding-top: 30px;
 }
 .section-premium{
     display: flex;
     justify-content: center;
     justify-items: center; 
+    padding: 20px;
+    border-bottom: 1px solid #999;
 }
 .section-premium h1{
     display: flex;
@@ -642,12 +645,13 @@ css de areas especificas
     margin-right: 30px;
 }
 .section-premium-img{
+    margin-left: 100px;
     margin-right: 100px;
-    width: 300px;
+    width: 350px;
 }
 .section-premium-infos{
     flex: 1;
-    max-width:560px ;
+    max-width:570px ;
     
 }
 .section-premium-infos p{
@@ -659,6 +663,36 @@ css de areas especificas
 }
 .button-chose.premium{
    display: inline-block;
-   margin-top: 30px;
-   margin-left: 400px;
+   margin-top: 50px;
+   margin-left: 480px;
+   background-color: #b28756;
+}
+.button-chose.premium:hover{
+    color: #ccc;
+    background-color: #9f794c;
+}
+
+
+.clients-area .slider-point{
+    margin-top: 60px;
+    height: 20px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.clients-area .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    
+}
+.clients-area .pointer:hover{
+    background-color: #b28756;
+}
+.clients-area .pointer.active{
+    background-color: #b28756;
 }
