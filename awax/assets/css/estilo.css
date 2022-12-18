@@ -696,3 +696,45 @@ css de areas especificas
 .clients-area .pointer.active{
     background-color: #b28756;
 }
+
+
+
+
+
+.section-facts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+.section-facts-infos{
+    max-width: 285px;
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+.section-facts-infos h1{
+     font-size: 46px;
+     margin-bottom: 10px;
+     color: #b28756;
+     text-align: center;
+    
+}
+.section-facts-infos h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.section-facts-infos p{
+    font-size: 12px;
+    text-align: center;
+    color: #ccc;
+    text-transform: uppercase;
+    padding: 10px;
+    
+}
