@@ -627,7 +627,7 @@ css de areas especificas
 .premium-area{
     width: 100%;
     height: auto;
-    background-color: #EEE;
+    background-color: white;
     padding-bottom: 40px;
     padding-top: 30px;
 }
@@ -657,7 +657,7 @@ css de areas especificas
 .section-premium-infos p{
     margin-left: 70px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    
     color: #999;
     font-size: 13px;
 }
