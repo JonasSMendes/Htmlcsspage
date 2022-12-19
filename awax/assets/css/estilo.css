@@ -791,3 +791,76 @@ css de areas especificas
 }
 
 
+
+
+.section-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-formulario-firt{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.section-formulario-firt input{
+    width: 350px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #999;
+    text-transform: uppercase;
+}
+.section-formulario-second{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    
+}
+.section-formulario-second input{
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #999;
+}
+.section-formulario-subjetive-item{
+    margin-bottom: 50px;
+}
+
+
+
+.section-mapa{
+    width: 100%;
+    height: 420px;
+    background-image: url('../icones/mapa.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 40px;
+    padding-left: 150px;
+    
+}
+.section-area-mapa{
+    padding-top: 30px;
+    width: 590px;
+    height: 350px;
+    background-color: white;
+}
+.section-mapa-infos{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.section-infos-dados{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.section-infos-dados img{
+    background-color: #999;
+    padding: 6px;
+    border-radius: 20px;
+    margin-right: 10px;
+    
+}
+.section-infos-dados{
+    font-size: 12px;
+    text-transform: uppercase;
+}
