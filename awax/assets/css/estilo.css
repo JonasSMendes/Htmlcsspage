@@ -743,11 +743,11 @@ css de areas especificas
 
 
 .section-redes-list{
-
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
     
 }
 .section-redes-aboutus{
