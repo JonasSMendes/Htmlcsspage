@@ -704,7 +704,6 @@ css de areas especificas
 .section-facts{
     display: flex;
     justify-content: center;
-    align-items: center;
     justify-content: space-around;
     
     
@@ -735,6 +734,58 @@ css de areas especificas
     text-align: center;
     color: #ccc;
     text-transform: uppercase;
-    padding: 10px;
+    align-items: center;
+    flex: 1;
     
+}
+
+
+
+
+.section-redes-list{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    
+}
+.section-redes-aboutus{
+    display: flex;
+    align-items: center;
+}
+.section-redes-aboutus img{
+    width: 50px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    border-radius: 30px;
+}
+.section-redes-aboutus h2{
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: #999;
+    font-size: 20px;
+    
+}
+.section-redes-links{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    
+}
+.section-redes-list a{
+    background-color: #9f794c;
+    border-radius: 30px;
+    padding: 10px;
+}
+.section-redes-links img{
+    width: 20px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    
+}
+.section-redes-links p{
+    font-size: 15PX;
+    margin-left: 5px;
+    margin-right: 40px;
 }
