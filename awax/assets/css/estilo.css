@@ -853,13 +853,18 @@ css de areas especificas
     align-items: center;
     margin-top: 30px;
 }
-.section-infos-dados img{
+.section-infos-img{
     background-color: #999;
-    padding: 6px;
+    display: inline-flex;
     border-radius: 20px;
-    margin-right: 10px;
-    width: 30px;
-    height: 30px;
+    padding: 5px;
+    margin-right: 20px;
+}
+.section-infos-dados img{
+    
+    width: 20px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
 }
 .section-infos-dados{
     font-size: 12px;
