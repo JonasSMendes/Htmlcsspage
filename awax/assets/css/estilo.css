@@ -955,3 +955,19 @@ footer{
 .button.footer:hover{
     background-color: #9f794c;
 }
+
+
+
+@media (min-width:450px) and (max-width:800px){
+    nav{
+        
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0,0,0, 0.5);
+        width: 80%;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+    
+}
