@@ -888,6 +888,7 @@ footer{
     justify-content: center;
     padding-top: 30px;
     max-width: 1140px;
+    height: 200px;
     margin: auto;
 }
 .footer-redes{
@@ -901,6 +902,7 @@ footer{
     
 }
 .footer-redes a{
+    display: inline-block;
     margin-left: 10px;
     background-color: #555;
     padding: 5px;
@@ -961,7 +963,7 @@ footer{
 
 
 
-@media (max-width:500px){
+@media (max-width:499px){
 
     .menu-opner{
         display: block;
@@ -1096,58 +1098,60 @@ footer{
    .section-facts{
     flex-direction: column;
     margin-left: 50px;
-   }
+     }
    
    .section-redes-links{
     flex-direction: column;
     margin-top: 20px;
     padding: 0;
-   }
+    }
    .section-redes-links p{
     margin-left: 34px;
-   }
+     }
    .section-formulario-second{
     width: 400px;
-   }
+    }
    .section-mapa{
     padding-left: 0;
-   }
+    }
    .section-area-mapa{
     width: 400px;
-   }
+     }
    .section-infos-dados{
     font-size: 14px;
-   }
-   footer{
-    height: 100%;
+    }
+    footer{
+    height: 500px;
     
-   }
+    }
    .footer-area{
     flex-direction: column;
-    
-   }
+    }
+    .footer-area{
+        height: auto;
     }
     .footer-redes{
     margin-right: 0;
     display: flex;
     margin-left: 50px;
- 
+
     }
     .footer-redes a{
+    
     margin-right: 20px;
     margin-top: 10px;
     }
     .footer-infos{
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 30px;
-        margin-left: 10px;
-    }
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    }  
     .button.footer{
-        margin-left: 0;
+    margin-left: 0;
     }
-
-
+    }
+    
 @media (min-width:500px) and (max-width:840px){
 
     .menu-opner{
