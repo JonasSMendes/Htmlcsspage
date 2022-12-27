@@ -65,3 +65,29 @@ header .line{
     width: 24px;
     height: 24px;
 }
+.banner{
+    background-image: url("../assets/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.banner h1{
+    font-size: 90px;
+    font-weight: bold;
+    font-family: "oswald","sans-serif";
+    line-height: 90px;
+    margin: 0;
+}
+.banner-image{
+    margin-top: 60px;
+}
+.banner-image img{
+    width: 148px;
+    height: 148px;
+    border: 6px solid #117050;
+    border-radius: 50%;margin-right: 40px;
+    
+}
