@@ -231,3 +231,93 @@ footer{
     text-align: center;
     padding: 80px;
 }
+
+@media (min-width:769px) and (max-width: 1140px){
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width:768px) {
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .area-1{
+        grid-template-columns: 2fr 1fr;
+    }
+    .area-2{
+        grid-template-columns: 3fr 2fr;
+    }
+    .area-3{
+        grid-template-columns: 3fr 2fr;
+    }
+    .area-5{
+        background-position: right;
+    }
+}
+@media (max-width:425px) {
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .header-search input{
+        max-width: 80px;
+    }
+    .header-menu{
+        margin-left: 25px;
+    }
+    h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    h2{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .banner-image img{
+        width: 60px;
+        height: 60px;
+        border: 2px solid #117050;
+        border-radius: 50%;
+        margin-right: 10px;
+        
+    }
+    .area-1{
+        grid-template-columns: 1fr;
+    }
+    .area1-content{
+        padding: 40px;
+    }
+    .area1-img1{
+        height: 200px;
+    }
+    .area-2{
+        grid-template-columns: 1fr;
+    }
+    .area2-content{
+        padding: 40px;
+    }
+    .area-3{
+        grid-template-columns: 1fr;
+    }
+    .area3-content{
+        padding: 40px;
+    }
+    .area-4{
+        grid-template-columns: 1fr;
+        
+    }
+    .area4-content{
+        padding: 60px 60px;
+    }
+    .area-5{
+        height: 200px;
+    }
+    footer{
+        padding: 40px;
+        color: #999;
+        font-size: 12px;
+        
+    }
+}
