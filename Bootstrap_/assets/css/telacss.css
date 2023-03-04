@@ -1,0 +1,5 @@
+
+.row[class^=col-], .row .co{
+    background-color: #ddd;
+    border: 1px solid #ccc;
+}
