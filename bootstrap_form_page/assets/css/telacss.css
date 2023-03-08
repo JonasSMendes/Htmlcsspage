@@ -1,0 +1,16 @@
+
+.row .co{
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    height: 50px;
+}
+.row{
+    background-color: #fff999;
+    padding: 10px;
+    height: 500px;
+}
+.teste{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
