@@ -15,9 +15,12 @@ body{
 .infos{
     margin-top: 40px;
     margin-bottom: 40px;
+    
 }
 
-
+.container{
+    
+}
 .jumbotron{
     margin: 0;
     padding: 0;
@@ -30,7 +33,7 @@ body{
     border: 1px solid #ccc;
 }
 .infos-page{
-   
+   margin: 10px;
    width: 300px;
 }
 .jumbotron p{
