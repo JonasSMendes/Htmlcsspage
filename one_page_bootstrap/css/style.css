@@ -1,41 +1,11 @@
 
-body{
-    background-color: 
-    #010114;
-    overflow-x: hidden;
-}
-
-
-.menu-text h1{
-    text-shadow: 3px 0px 0px black;
-}
-.menu-text p{
-    text-shadow: 3px 0px 0px black;
-}
-.infos{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    
-}
-
-.container{
-    
-}
-.jumbotron{
-    margin: 0;
-    padding: 0;
-    min-width: 300px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+.filme {
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: #eee;
     text-align: center;
-    border: 1px solid #ccc;
 }
-.infos-page{
-   margin: 10px;
-   width: 300px;
-}
-.jumbotron p{
-    margin-top: 5px;
+.filme img{
+    margin: 10px;
+    margin-bottom: 10px;
 }
